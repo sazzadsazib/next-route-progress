@@ -1,6 +1,6 @@
 {
   "name": "next-route-progressbar",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A lightweight Next.js route change progress bar",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -19,6 +19,24 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sazzadsazib/next-route-progressbar.git"
+  },
+  "keywords": [
+    "nextjs",
+    "progress-bar",
+    "route",
+    "navigation",
+    "react",
+    "app-router"
+  ],
+  "author": "Sazzadul Islam <sazib66@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/sazzadsazib/next-route-progressbar#readme",
+  "bugs": {
+    "url": "https://github.com/sazzadsazib/next-route-progressbar/issues"
+  },
   "devDependencies": {
     "tsup": "^8.0.0",
     "typescript": "^5.6.3",
