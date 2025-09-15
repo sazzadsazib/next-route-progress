@@ -10,4 +10,7 @@ export default defineConfig({
   treeshake: true, // Remove unused exports for smaller bundle
   target: 'es2020', // Modern JS target
   external: ['react', 'react-dom', 'next/navigation'], // Don't bundle peer deps
+  esbuildOptions: (options) => {
+    options.define = { 'process.env.NODE_ENV': '"production"' };
+  },
 });
