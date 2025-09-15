@@ -13,9 +13,9 @@ Supports client-side navigation, smooth trickle animations, and configurable beh
 If published to NPM:
 
 ```bash
-npm install next-route-progress
+npm install next-route-progressbar
 # or
-yarn add next-route-progress
+yarn add next-route-progressbar
 ```
 
 ### 2. Install Locally
@@ -28,7 +28,7 @@ npm run build
 npm link
 
 # In your Next.js app
-npm link next-route-progress
+npm link next-route-progressbar
 ```
 
 ---
@@ -39,7 +39,7 @@ npm link next-route-progress
 
 ```tsx
 'use client';
-import { ProgressBar } from 'next-route-progress';
+import { ProgressBar } from 'next-route-progressbar';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

@@ -1,5 +1,5 @@
 {
-  "name": "next-route-progress",
+  "name": "next-route-progressbar",
   "version": "1.0.0",
   "description": "A lightweight Next.js route change progress bar",
   "main": "./dist/index.cjs",
