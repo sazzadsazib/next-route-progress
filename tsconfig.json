@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    /* Build output */
+    "outDir": "dist",
+    "declaration": true,
+    "declarationDir": "dist",
+
+    /* Modern output */
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Bundler", // ✅ Recommended for libraries using bundlers like tsup
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+
+    /* Interop & Type Support */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "types": ["node", "react"], // ✅ Make sure React & Node types are available
+
+    /* Type Checking */
+    "strict": true,
+    "skipLibCheck": true,
+
+    /* JSX support */
+    "jsx": "react-jsx",
+
+    /* Source maps for debugging */
+    "sourceMap": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
